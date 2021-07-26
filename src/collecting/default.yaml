@@ -1,0 +1,3 @@
+user_csv: "../../../Data/NonQanon/NonQanon twitter accounts.csv" 
+handle_col: 1
+save_file: "../../../../Data/NonQanon/mumbo.csv"

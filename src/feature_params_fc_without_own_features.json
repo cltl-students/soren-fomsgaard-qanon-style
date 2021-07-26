@@ -1,0 +1,45 @@
+{   "ngrams": {
+        "type": "char",
+        "size": [
+            3,
+            3
+        ],
+        "lowercase": false,
+        "max_vocab": null
+    },
+    "engineered": {
+        "character_level": [
+            "char_punc_freq",
+            "digit_freq",
+            "whitespace_freq",
+            "linebreak_freq",
+            "uppercased_char_freq",
+            "special_char_freq"
+        ],
+        "word_level": [
+            "total_word_len",
+            "avg_word_len",
+            "avg_sentence_len_words",
+            "avg_sentence_len_chars",
+            "short_words",
+            "elongated_words",
+            "emotes",
+            "nonstandard_spelling",
+            "type_token_ratio",
+            "hapax_legomena",
+            "hapax_dislegomena",
+            "syllable_freqs",
+            "readability_flesch_kincaid"
+        ],
+        "sentence_level": [
+            "stopword_freq",
+            "syn_punc_freq",
+            "root_freq"
+        ],
+        "document_level": [
+            "n_sents",
+            "n_mentions"
+        ]
+    },
+    "liwc": false
+}

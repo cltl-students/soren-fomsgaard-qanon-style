@@ -1,0 +1,49 @@
+{   
+    "engineered": {
+        "character_level": [
+            "char_punc_freq",
+            "digit_freq",
+            "whitespace_freq",
+            "linebreak_freq",
+            "uppercased_char_freq",
+            "special_char_freq",
+            "repeated_questionmark",
+            "repeated_periods",
+            "repeated_exclamation",
+            "contains_equals"
+        ],
+        "word_level": [
+            "total_word_len",
+            "avg_word_len",
+            "avg_sentence_len_words",
+            "avg_sentence_len_chars",
+            "uppercased_words",
+            "short_words",
+            "elongated_words",
+            "numberlike_tokens",
+            "past_tense_words",
+            "present_tense_words",
+            "positive_adjectives",
+            "comp_and_sup_adjectives",
+            "emotes",
+            "nonstandard_spelling",
+            "quoted_words",
+            "type_token_ratio",
+            "hapax_legomena",
+            "hapax_dislegomena",
+            "syllable_freqs",
+            "readability_flesch_kincaid"
+        ],
+        "sentence_level": [
+            "stopword_freq",
+            "syn_punc_freq",
+            "root_freq",
+            "pos_ngrams"
+        ],
+        "document_level": [
+            "n_sents",
+            "n_mentions"
+        ]
+    },
+    "liwc": false
+}

@@ -1,0 +1,30 @@
+{   
+    "engineered": {
+        "character_level": [
+            "uppercased_char_freq",
+            "special_char_freq",
+            "repeated_questionmark",
+            "repeated_periods",
+            "repeated_exclamation",
+            "contains_equals"
+        ],
+        "word_level": [
+            "total_word_len",
+            "avg_word_len",
+            "avg_sentence_len_words",
+            "avg_sentence_len_chars",
+            "uppercased_words",
+            "emotes",
+            "nonstandard_spelling",
+            "type_token_ratio",
+            "hapax_legomena",
+            "hapax_dislegomena",
+            "syllable_freqs",
+            "readability_flesch_kincaid"
+        ],
+        "document_level": [
+            "n_mentions"
+        ]
+    },
+    "liwc": false
+}

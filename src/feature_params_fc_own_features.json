@@ -1,0 +1,28 @@
+{   "ngrams": {
+        "type": "char",
+        "size": [
+            3,
+            3
+        ],
+        "lowercase": false,
+        "max_vocab": null
+    },
+    "engineered": {
+        "character_level": [
+            "repeated_questionmark",
+            "repeated_periods",
+            "repeated_exclamation",
+            "contains_equals"
+        ],
+        "word_level": [
+            "uppercased_words",
+            "numberlike_tokens",
+            "past_tense_words",
+            "present_tense_words",
+            "positive_adjectives",
+            "comp_and_sup_adjectives",
+            "quoted_words"
+        ]
+    },
+    "liwc": false
+}

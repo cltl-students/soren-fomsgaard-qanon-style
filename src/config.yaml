@@ -1,0 +1,10 @@
+model training:
+  - data:
+    X_train: '../../../Data/train/train.pkl'
+    y_train: '../../../Data/train/train_labels.pkl'
+    X_test: '../../../Data/test/test.pkl'
+    y_test: '../../../Data/test/test_labels.pkl'
+
+
+
+---
