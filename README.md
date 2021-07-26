@@ -1,6 +1,6 @@
 # HLT Thesis Code
  
-# By Søren Kirkegaard Fomsgaard, July 26, 2021.
+### By Søren Kirkegaard Fomsgaard, July 26, 2021.
 
 This is the code used during my research on the style of QAnon on Twitter, as part of the thesis: "In the eye of the storm with style: Investigating style features in the language of QAnon on Twitter" as part of the program Human Language Technology at the CLTL, Vrije Universiteit, Amsterdam.
 
